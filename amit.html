@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Profile</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        header {
+            border:1px solid gray;
+            box-shadow: 2px 2px 2px gray;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .title {
+            font-weight: bold;
+            font-family: Arial;
+            font-size: 30px;
+        }
+        .nav-bar {
+            display: flex;
+        }
+        .nav-bar div {
+            margin-right: 30px;
+            font-size: 20px;
+            font-family: Arial;
+            font-weight: bold;
+        }
+        .banner {
+            margin-top: 5px;
+            box-shadow: 2px 2px 2px gray;
+            border:1px solid gray;
+            background-image: url("public/Images/banner.jpg");
+            height: 400px;
+        }
+        .side-panel {
+            font-size: 30px;
+            font-family: Arial;
+            text-align: center;
+            width: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body class="container-fluid">
+    <header>
+        <div class="title">
+            PORTFOLIO
+        </div>
+        <div class="nav-bar">
+            <div>Home</div>
+            <div>About</div>
+            <div>Services</div>
+            <div>My Projects</div>
+        </div>
+    </header>
+    <div class="banner">
+       <div class="side-panel">
+         <div>
+            <h1>Iam a Web Designer</h1>
+            <p>Check My Projects</p>
+            <div>
+                <button class="btn btn-danger">Sigin</button>
+                <button class="btn btn-warning">Register</button>
+            </div>
+         </div>
+       </div>
+    </div>
+    <body class="container-fluid">
+        <h2>Amazon Shopping</h2>
+        <div class="input-group">
+            <select class="input-group-text">
+                <option>All</option>
+                <option>Mobiles</option>
+                <option>Shoes</option>
+            </select>
+            <input type="text" class="form-control">
+            <button class="btn btn-warning">
+                <span class="bi bi-search"></span>
+            </button>
+        </div>
+        <h2>Netflix Register</h2>
+        <main class="bg-dark text-white text-center p-4">
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="input-group input-group-lg">
+                <input type="email" placeholder="Your email address" class="form-control">
+                <button class="btn btn-danger">
+                    Get Started <span class="bi bi-chevron-right"></span>
+                </button>
+            </div>
+        </main>
+        <h2>Password</h2>
+        <div class="input-group">
+            <span class="bi bi-key-fill input-group-text"></span>
+            <input type="password" class="form-control">
+            <span class="bi bi-check-circle-fill input-group-text"></span>
+        </div>
+        <h2>Gmail</h2>
+        <div class="input-group">
+            <span class="bi bi-person input-group-text"></span>
+            <input type="email" class="form-control">
+            <span class="input-group-text">gmail.com</span>
+        </div>
+</body>
+</html>
